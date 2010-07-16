@@ -1,0 +1,11 @@
+admin:
+  label: admin
+  nicename: Typo administrator
+
+publisher:
+  label: publisher
+  nicename: Blog publisher
+
+contributor:
+  label: contributor
+  nicename: Contributor
