@@ -2,7 +2,7 @@ login: &login
   adapter: mysql
   host: localhost
   username: root
-  password: docla
+  password: pass
   
 
 production:
