@@ -18,6 +18,10 @@ end
 class Blog < CachedModel
   include ConfigManager
 
+  def pr1
+    "pr1"
+  end
+
   has_many :contents
   has_many :trackbacks
   has_many :articles
