@@ -5,6 +5,7 @@ class Article < Content
   include TypoGuid
 
   content_fields :body, :extended
+  #pr2
 
   has_many :pings,      :dependent => :destroy, :order => "created_at ASC"
   has_many :comments,   :dependent => :destroy, :order => "created_at ASC"
